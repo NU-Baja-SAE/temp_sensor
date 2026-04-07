@@ -5,7 +5,7 @@ const float referenceVoltage = 3.3;
 const int referenceResistor = 10000;
 const int beta = 3950;
 const int nominalTemp = 25;
-const int nominalResistance = 8300;
+const int nominalResistance = 8300;  // different value for the two sensors (8300 is good for the small sensor)
 
 void setup() {
   Serial.begin(115200);
