@@ -2,10 +2,10 @@
 
 const int thermistorPin = 32;
 const float referenceVoltage = 3.3;
-const int referenceResistor = 10000;
-const int beta = 3950;
+const int referenceResistor = 10000; // check on PCB
+const int beta = 3950; // can be used as tuner
 const int nominalTemp = 25;
-const int nominalResistance = 8300;  // different value for the two sensors (8300 is good for the small sensor)
+const int nominalResistance = 10000;  // can be used as tuner
 
 void setup() {
   Serial.begin(115200);
